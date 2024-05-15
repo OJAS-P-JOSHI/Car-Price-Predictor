@@ -1,8 +1,8 @@
 import pandas as pd
-import pickle as pk
+import pickle 
 import streamlit as st
 
-model = pk.load(open('model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 st.header('Car Price ML Model')
 
